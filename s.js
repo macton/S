@@ -1,4 +1,6 @@
 
+Error.stackTraceLimit = Infinity;
+
 var curry = function(fn) {
   if (typeof fn!=='function') { 
     throw Error('Not a function'); 
